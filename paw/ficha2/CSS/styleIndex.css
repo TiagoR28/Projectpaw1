@@ -7,6 +7,7 @@ body{
 header h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
     font-size: 100px;
+    position: relative;
     text-align: center;
 }
 
@@ -14,29 +15,38 @@ header h1 img{
     zoom: 25%;
 }
 
-
+.container{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 100px;
+}
 #menu{
-    margin-top: 30px;
-    margin-bottom: 30px;
+   position: relative;
     font-size: 30px;
     text-align: center;
-    
+    width: 90%;
+    border: 5px dotted black;
+    margin-left: 5%; 
 }
 
 #tags{
     text-align: center;
     width: 40%;
     float: left;
-    border-style: solid;
-    border-width: 5px;
+    border: 5px solid black;
+    margin-left: 7%;
+    margin-top: 30px;
+
+    
 }
 
 #posts{
-    width: 60%;
+    width: 40%;
     float: right;
-    border-style: solid;
-    border-width: 5px;
-    
+    border: 5px solid black;
+    margin-right: 7%;
+    margin-top: 30px;
 }
 
 #posts h3{
@@ -44,5 +54,14 @@ header h1 img{
 }
 
 footer{
-    margin-top: 35px;
+    margin-top: 15px;
+    width: 90%;
+    text-align: right;
+    border-top: 5px solid black;
+    margin-left: 5%;
+}
+
+footer p{
+    display: inline-block;
+    margin: 10px 15px;
 }
